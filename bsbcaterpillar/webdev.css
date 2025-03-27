@@ -1,0 +1,123 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header and Title */
+  header {
+    background-color: #ff7043;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+  }
+  
+  /* Navigation bar */
+  nav {
+    background-color: #ff5722;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd180;
+  }
+  
+  /* Section styling */
+  main section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #e64a19;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+  }
+  
+  /* Recipe images */
+  section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff3e0;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ffccbc;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff7043;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.95rem;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    color: #ffe0b2;
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+  

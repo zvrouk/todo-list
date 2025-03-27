@@ -1,0 +1,145 @@
+*{
+    box-sizing:border-box;
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+#headerContent{
+    text-align: center;
+    padding: 10px;
+    background-color:purple;
+    color:black;
+    font-family: Andale Mono, monospace;
+}
+
+#headerContent h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#headerContent p{
+    font-style: italic;
+}
+
+#topMenu{
+    background-color: purple;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+
+#topMenu > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+#topMenu a:hover{
+    color:green;
+    background-color: rgb(255, 225, 127);
+}
+
+/*css for the banner image area*/
+#bannerImage{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    scroll-padding-bottom: 10px;
+    height: 600px;
+
+}
+
+#row1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+#row1 > div{
+    background: wheat;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px black;
+}
+
+#jew1{
+    width: 30%;
+}
+
+#rowform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    width: 50%;
+}
+
+fieldset{
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label, input, textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 2rem;
+}
+
+#gender input{ 
+    width:10%;
+    height:1rem;
+}
+
+#gender{
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: blue;
+}
+
+footer{
+    background-color: blue;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
