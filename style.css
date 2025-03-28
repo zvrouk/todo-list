@@ -1,6 +1,101 @@
-a:visited{color: blueviolet};
-
-a:hover{
-    color: blue;
-}
-
+/* Reset & base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  /* Centered container */
+  .container {
+    max-width: 500px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Input + Button */
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  #addTaskBtn {
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #addTaskBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task list */
+  #taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+  }
+  
+  #taskList li {
+    background-color: #f9f9f9;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+  }
+  
+  #taskList li.completed {
+    text-decoration: line-through;
+    color: #777;
+    background-color: #e2e3e5;
+  }
+  
+  /* Buttons inside list */
+  .task-btns {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-btns button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .complete-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
